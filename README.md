@@ -29,12 +29,13 @@ ros2 run pilgrim_lidar_noise lidar_env_comp
 ros2 set param /storm_lidar_node storm_mag 3.0
 ros2 set param /storm_lidar_node storm_mag 0.0
 
-Back in Terminal 3, `Ctrl + C` to stop collecting LiDAR data and save plot of normal vs stormy LiDAR noisy samples as a .png.
+# Back in Terminal 3, `Ctrl + C` to stop collecting LiDAR data and save plot of normal vs stormy LiDAR noisy samples as a .png.
 
 ```
 ![Noisy LiDAR Demo](pilgrim_demo_world.png)
 ![Rviz2 LiDAR Scans](pilgrim_demo_scan.png)
 ![Noisy LiDAR Env Comparison](lidar_noise_hist.png)
+
 
 
 

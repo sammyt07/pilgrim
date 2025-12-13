@@ -3,6 +3,9 @@ The ROS 2 node `storm_lidar_node` subscribes to ROS 2 topic `/scan`, reads Turtl
 ### Dependencies:
 Ubuntu (20.04), ROS 2 Foxy, TurtleBot3 packages, Gazebo Classic
 
+## Inquiry:
+How does changing weather conditions influence the distribution of LiDAR range data obtained by the Pilgrim rover?
+
 ## Procedure
 ```bash
 # --- Step 1: install resources and build --- #
@@ -33,10 +36,14 @@ ros2 param set /storm_lidar_node storm_mag 0.0
 # Return to Terminal 3, `Ctrl + C` to stop collecting LiDAR data and save
 # plot of normal vs stormy LiDAR noisy samples as a .png.
 ```
+
+## Results:
 ![Noisy LiDAR Demo](pilgrim_demo_world.png)
 ![Rviz2 LiDAR Scans](pilgrim_demo_scan.png)
 ![Noisy LiDAR Env Comparison](lidar_noise_hist.png)
 
+## Discussion:
+From our simulation, derive that LiDAR scans are less accurate in the presence of a dust / sandstorm. Pilgrim be advised!  
 
 
 

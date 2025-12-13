@@ -34,9 +34,9 @@ ros2 param set /storm_lidar_node storm_mag 0.0
 # plot of normal vs stormy LiDAR noisy samples as a .png.
 ```
 ![Noisy LiDAR Demo](pilgrim_demo_world.png)
-![Noisy LiDAR Demo 2](pilgrim_demo_world2.png)
 ![Rviz2 LiDAR Scans](pilgrim_demo_scan.png)
 ![Noisy LiDAR Env Comparison](lidar_noise_hist.png)
+
 
 
 

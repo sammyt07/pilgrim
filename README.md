@@ -1,7 +1,7 @@
 # Pilgrim Rover LiDAR Noise Injection (ROS 2 + Gazebo)
 The ROS 2 node `storm_lidar_node` subscribes to ROS 2 topic `/scan`, reads TurtleBot3 LiDAR data, injects Gaussian noise, and publishes to ROS 2 topic `/scan_noisy`. The ROS 2 node `lidar_env_comp` can be invoked to process samples collected over a duration when the rover is in normal vs dust / sandstorm weather conditions.
 ### Dependencies:
-Python, ROS 2, TurtleBot3
+Ubuntu (20.04), ROS 2 Foxy, TurtleBot3 packages, Gazebo Classic
 
 ## Procedure
 ```bash
@@ -29,6 +29,7 @@ ros2 set param /storm_lidar_node storm_mag 0.0
 ![Rviz2 LiDAR Scans](pilgrim_demo_scan.png)
 
 ![Noisy LiDAR Env Comparison](lidar_noise_hist.png)
+
 
 
 

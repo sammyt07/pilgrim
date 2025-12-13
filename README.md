@@ -43,7 +43,8 @@ ros2 param set /storm_lidar_node storm_mag 0.0
 ![Noisy LiDAR Env Comparison](lidar_noise_hist.png)
 
 ## Discussion:
-From our simulation, derive that LiDAR scans are less accurate in the presence of a dust / sandstorm. Pilgrim be advised!  
+From our simulation, observe that rover LiDAR scans are less accurate in the presence of a dust / sandstorm. Pilgrim be advised!
+
 
 
 

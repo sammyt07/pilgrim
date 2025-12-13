@@ -6,6 +6,8 @@ Ubuntu (20.04), ROS 2 Foxy, TurtleBot3 packages, Gazebo Classic
 ## Procedure
 ```bash
 cd ~/pilgrim
+source /opt/ros/foxy/setup.bash
+colcon build
 
 For each new terminal,
 source install/setup.bash
@@ -27,8 +29,8 @@ ros2 set param /storm_lidar_node storm_mag 0.0
 ```
 ![Noisy LiDAR Demo](pilgrim_demo_world.png)
 ![Rviz2 LiDAR Scans](pilgrim_demo_scan.png)
-
 ![Noisy LiDAR Env Comparison](lidar_noise_hist.png)
+
 
 
 

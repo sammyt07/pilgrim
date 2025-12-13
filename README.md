@@ -5,14 +5,14 @@ Ubuntu (20.04), ROS 2 Foxy, TurtleBot3 packages, Gazebo Classic
 
 ## Procedure
 ```bash
-# --- install resources and build --- #
+# --- Step 1: install resources and build --- #
 cd ~/pilgrim
 source /opt/ros/foxy/setup.bash
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 colcon build
 
-#  --- demo: rover LiDAR scans in normal vs dust / sandstorm --- #
+#  --- Step 2: launch demo of rover LiDAR scans in normal vs dust / sandstorm --- #
 For each new terminal,
 source install/setup.bash
 
@@ -29,12 +29,14 @@ ros2 run pilgrim_lidar_noise lidar_env_comp
 ros2 set param /storm_lidar_node storm_mag 3.0
 ros2 set param /storm_lidar_node storm_mag 0.0
 
-# Back in Terminal 3, `Ctrl + C` to stop collecting LiDAR data and save plot of normal vs stormy LiDAR noisy samples as a .png.
-
+# --- Step 3: LiDAR sample return --- #
+# Return to Terminal 3, `Ctrl + C` to stop collecting LiDAR data and save
+# plot of normal vs stormy LiDAR noisy samples as a .png.
 ```
 ![Noisy LiDAR Demo](pilgrim_demo_world.png)
 ![Rviz2 LiDAR Scans](pilgrim_demo_scan.png)
 ![Noisy LiDAR Env Comparison](lidar_noise_hist.png)
+
 
 
 

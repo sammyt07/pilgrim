@@ -36,6 +36,8 @@ ros2 set param /storm_lidar_node storm_mag 0.0
 ![Noisy LiDAR Demo](pilgrim_demo_world.png)
 ![Rviz2 LiDAR Scans](pilgrim_demo_scan.png)
 ![Noisy LiDAR Env Comparison](lidar_noise_hist.png)
+![Noisy LiDAR Demo 2](pilgrim_demo_world2.png)
+
 
 
 

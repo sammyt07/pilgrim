@@ -1,4 +1,0 @@
-[console_scripts]
-lidar_env_comp = pilgrim_lidar_noise.lidar_env_comp:main
-storm_lidar_node = pilgrim_lidar_noise.storm_lidar_node:main
-

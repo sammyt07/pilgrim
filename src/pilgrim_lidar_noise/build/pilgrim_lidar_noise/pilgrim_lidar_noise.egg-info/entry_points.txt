@@ -1,0 +1,3 @@
+[console_scripts]
+storm_lidar_node = pilgrim_lidar_noise.storm_lidar_node:main
+

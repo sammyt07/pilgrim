@@ -1,0 +1,8 @@
+running egg_info
+creating build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info
+writing build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/PKG-INFO
+writing dependency_links to build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/dependency_links.txt
+writing entry points to build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/entry_points.txt
+writing requirements to build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/requires.txt
+writing top-level names to build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/top_level.txt
+writing manifest file 'build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/SOURCES.txt'

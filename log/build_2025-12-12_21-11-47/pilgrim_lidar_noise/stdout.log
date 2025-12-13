@@ -1,0 +1,29 @@
+running develop
+Removing /home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/python3.8/site-packages/pilgrim-lidar-noise.egg-link (link to .)
+running egg_info
+writing ../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/PKG-INFO
+writing dependency_links to ../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/dependency_links.txt
+writing entry points to ../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/entry_points.txt
+writing requirements to ../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/requires.txt
+writing top-level names to ../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/top_level.txt
+reading manifest file '../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/SOURCES.txt'
+writing manifest file '../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/python3.8/site-packages/pilgrim_lidar_noise
+copying /home/aperture/pilgrim/build/pilgrim_lidar_noise/build/lib/pilgrim_lidar_noise/storm_lidar_node.py -> /home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/python3.8/site-packages/pilgrim_lidar_noise
+copying /home/aperture/pilgrim/build/pilgrim_lidar_noise/build/lib/pilgrim_lidar_noise/__init__.py -> /home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/python3.8/site-packages/pilgrim_lidar_noise
+byte-compiling /home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/python3.8/site-packages/pilgrim_lidar_noise/storm_lidar_node.py to storm_lidar_node.cpython-38.pyc
+byte-compiling /home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/python3.8/site-packages/pilgrim_lidar_noise/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/pilgrim_lidar_noise -> /home/aperture/pilgrim/install/pilgrim_lidar_noise/share/ament_index/resource_index/packages
+copying package.xml -> /home/aperture/pilgrim/install/pilgrim_lidar_noise/share/pilgrim_lidar_noise
+copying launch/demo.launch.py -> /home/aperture/pilgrim/install/pilgrim_lidar_noise/share/pilgrim_lidar_noise/launch
+copying worlds/demo.world -> /home/aperture/pilgrim/install/pilgrim_lidar_noise/share/pilgrim_lidar_noise/worlds
+running install_egg_info
+Copying ../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info to /home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/python3.8/site-packages/pilgrim_lidar_noise-0.0.0-py3.8.egg-info
+running install_scripts
+Installing storm_lidar_node script to /home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/pilgrim_lidar_noise
+writing list of installed files to '/home/aperture/pilgrim/build/pilgrim_lidar_noise/install.log'

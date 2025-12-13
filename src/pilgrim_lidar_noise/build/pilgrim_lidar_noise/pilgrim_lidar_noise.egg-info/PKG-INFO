@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: pilgrim-lidar-noise
+Version: 0.0.0
+Summary: A ROS 2 Gaussian noise injection node.
+Home-page: UNKNOWN
+Maintainer: freeman
+Maintainer-email: sammy.l.tribble@gmail.com
+License: TODO: License declaration
+Description: UNKNOWN
+Platform: UNKNOWN

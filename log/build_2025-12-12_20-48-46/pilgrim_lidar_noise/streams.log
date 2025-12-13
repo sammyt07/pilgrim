@@ -1,0 +1,23 @@
+[0.639s] Invoking command in '/home/aperture/pilgrim/src/pilgrim_lidar_noise': PYTHONPATH=/home/aperture/pilgrim/build/pilgrim_lidar_noise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pilgrim_lidar_noise build --build-base /home/aperture/pilgrim/build/pilgrim_lidar_noise/build install --record /home/aperture/pilgrim/build/pilgrim_lidar_noise/install.log --install-scripts $base/lib/pilgrim_lidar_noise --single-version-externally-managed install_data
+[0.788s] running egg_info
+[0.789s] writing ../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/PKG-INFO
+[0.789s] writing dependency_links to ../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/dependency_links.txt
+[0.789s] writing entry points to ../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/entry_points.txt
+[0.789s] writing requirements to ../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/requires.txt
+[0.789s] writing top-level names to ../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/top_level.txt
+[0.815s] reading manifest file '../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/SOURCES.txt'
+[0.816s] writing manifest file '../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info/SOURCES.txt'
+[0.817s] running build
+[0.817s] running build_py
+[0.817s] running install
+[0.817s] running install_lib
+[0.819s] running install_data
+[0.820s] copying launch/demo.launch.py -> /home/aperture/pilgrim/install/pilgrim_lidar_noise/share/pilgrim_lidar_noise/launch
+[0.822s] copying worlds/demo.world -> /home/aperture/pilgrim/install/pilgrim_lidar_noise/share/pilgrim_lidar_noise/worlds
+[0.822s] running install_egg_info
+[0.824s] removing '/home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/python3.8/site-packages/pilgrim_lidar_noise-0.0.0-py3.8.egg-info' (and everything under it)
+[0.825s] Copying ../../build/pilgrim_lidar_noise/pilgrim_lidar_noise.egg-info to /home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/python3.8/site-packages/pilgrim_lidar_noise-0.0.0-py3.8.egg-info
+[0.827s] running install_scripts
+[0.839s] Installing storm_lidar_node script to /home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/pilgrim_lidar_noise
+[0.840s] writing list of installed files to '/home/aperture/pilgrim/build/pilgrim_lidar_noise/install.log'
+[0.859s] Invoked command in '/home/aperture/pilgrim/src/pilgrim_lidar_noise' returned '0': PYTHONPATH=/home/aperture/pilgrim/build/pilgrim_lidar_noise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aperture/pilgrim/install/pilgrim_lidar_noise/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pilgrim_lidar_noise build --build-base /home/aperture/pilgrim/build/pilgrim_lidar_noise/build install --record /home/aperture/pilgrim/build/pilgrim_lidar_noise/install.log --install-scripts $base/lib/pilgrim_lidar_noise --single-version-externally-managed install_data

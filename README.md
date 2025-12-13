@@ -26,8 +26,8 @@ ros2 run pilgrim_lidar_noise storm_lidar_node
 ros2 run pilgrim_lidar_noise lidar_env_comp
 
 # Terminal 4: sim dust / sandstorm
-ros2 set param /storm_lidar_node storm_mag 3.0
-ros2 set param /storm_lidar_node storm_mag 0.0
+ros2 param set /storm_lidar_node storm_mag 3.0
+ros2 param set /storm_lidar_node storm_mag 0.0
 
 # --- Step 3: LiDAR sample return --- #
 # Return to Terminal 3, `Ctrl + C` to stop collecting LiDAR data and save
@@ -37,6 +37,7 @@ ros2 set param /storm_lidar_node storm_mag 0.0
 ![Noisy LiDAR Demo 2](pilgrim_demo_world2.png)
 ![Rviz2 LiDAR Scans](pilgrim_demo_scan.png)
 ![Noisy LiDAR Env Comparison](lidar_noise_hist.png)
+
 
 
 
